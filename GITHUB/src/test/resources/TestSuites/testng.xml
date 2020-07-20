@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <parameter name="browser" value="chrome"/>
+ <parameter name="ito" value="30"/>
+  <test thread-count="5" name="PositiveTests">
+  <classes>
+   <class name="com.githubapp.theinternet.testCases.TC001"></class>  
+   <class name="com.githubapp.theinternet.testCases.TC002"></class> 
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
